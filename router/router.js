@@ -24,6 +24,7 @@ router.get("/home",controllerEstantes.home);
 router.post("/saveEstantes",controllerEstantes.saveEstante);
 router.get("/getEstantes",controllerEstantes.getEstandes);
 router.get("/getOneEstante/:id?",controllerEstantes.getOnestante);
+router.delete("/deleteEstate/:id",controllerEstantes.deleteEstante);
 
 
 module.exports = router;
